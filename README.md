@@ -4,7 +4,7 @@ Group Project for Foundations of Web Development
 The project is a chef's blog with their recipes.
 
 
-Group Members:
-Anas Muhsin
-Kirththiga Murugupillai
+<b>Group Members:</b><br/>
+Anas Muhsin<br/>
+Kirththiga Murugupillai<br/>
 Sean Pedro-Czako
