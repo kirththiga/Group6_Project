@@ -12,12 +12,12 @@ header {
     text-align: center;
 }
 
-ul {
+.navLinks {
    list-style-type: none;
    padding: 0;
 }
 
-li {
+.navLinks li {
     display: inline-block;
     padding: 15px;
 }
@@ -41,9 +41,19 @@ main {
     padding: 10px;
 }
 
-img {
-    /*width: 200px;*/
+#chef {
+    height: 100%;
+    width: 100%;
     border: 2px solid;
+}
+
+#ingredients {
+    float: left;
+}
+
+#butter-chicken {
+    width: 200px;
+    padding: 10px;
 }
 
 footer {
@@ -51,7 +61,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    position: static;
     bottom : 0;
     width: 100%; /* Makes the footer span the full width */
 }
