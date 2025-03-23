@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: beige;
 }
 
 header {
-    background-color: rgb(56, 55, 55);
+    background-color: #D94F1F;
     color: white;
     padding: 15px;
     text-align: center;
@@ -29,11 +29,23 @@ a {
 
 main {
     padding: 20px;
-    /*text-align: center;*/
 }
 
 .container {
     display: flex;
+}
+
+.recipe-container {
+    display: flex;
+    align-items: center;
+}
+
+#recipe-header {
+    margin-left: 20px;
+}
+
+#tag-line {
+    margin: 0px 0px 0px 20px;
 }
 
 .column {
@@ -51,17 +63,18 @@ main {
     float: left;
 }
 
-#butter-chicken {
+#recipe-image {
     width: 200px;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 100px;
 }
 
 footer {
-    background-color: rgb(56, 55, 55);
+    background-color: #D94F1F;
     color: white;
     text-align: center;
     padding: 10px;
-    position: static;
+    position: relative;
     bottom : 0;
     width: 100%; /* Makes the footer span the full width */
 }
