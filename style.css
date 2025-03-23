@@ -39,7 +39,7 @@ img {
     border-radius: 10px; /* Rounded corners */
 }
 
-#about-me {
+#about-me, #favorite-recipes {
     margin-left: 15%;
 }
 
@@ -63,6 +63,15 @@ img {
 
 main {
     padding: 20px;
+}
+
+#recipe-images {
+    margin-left: 15%;
+}
+
+#recipe-images img{
+    display: inline-block;
+    margin: 10px;
 }
 
 /* Recipe page */
