@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: beige;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -27,14 +30,42 @@ a {
     text-decoration: none;
 }
 
+/* About Me section */
+img {
+    display: flex;
+    align-items: left;
+    width: 200px;
+    height: 200px; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#about-me {
+    margin-left: 15%;
+}
+
+.about-section {
+    background-color: #cab898;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 15px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.about-text div{
+    height: 400px;
+    width: 1000px;
+    margin: 20px;
+}
+
 main {
     padding: 20px;
 }
 
-.container {
-    display: flex;
-}
-
+/* Recipe page */
 .recipe-container {
     display: flex;
     align-items: center;
@@ -48,17 +79,6 @@ main {
     margin: 0px 0px 0px 20px;
 }
 
-.column {
-    flex: 1;
-    padding: 10px;
-}
-
-#chef {
-    height: 100%;
-    width: 100%;
-    border: 2px solid;
-}
-
 #ingredients {
     float: left;
 }
@@ -69,12 +89,14 @@ main {
     margin-left: 100px;
 }
 
+/* Footer */
 footer {
     background-color: #D94F1F;
     color: white;
     text-align: center;
     padding: 10px;
-    position: relative;
+    height: 50px;
+    margin-top: auto;
     bottom : 0;
     width: 100%; /* Makes the footer span the full width */
 }
