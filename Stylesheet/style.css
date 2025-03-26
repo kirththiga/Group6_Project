@@ -102,7 +102,7 @@ main {
 
 img {
   display: flex;
-  align-items: left;
+  align-items: start;
   width: 400px;
   height: auto; 
   border-radius: 10px; 
