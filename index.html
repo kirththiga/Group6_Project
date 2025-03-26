@@ -3,75 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chef Ravi Patel's Page</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>CHEF PATEL'S FOOD BLOG</title>
+    <link rel="stylesheet" href="Stylesheet/style.css">
+ 
 </head>
 <body>
-    <header>
-        <h1>Welcome to Chef Ravi Patel's Page</h1>
-        <nav>
-            <ul class="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#recipes">Recipes</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <div>
-            <section id="about">
-                <h2 id="about-me">About Me</h2>
-                <div class="about-section">
-                    <div class="about-image">
-                        <img src="./resources/Chef.png" alt="Chef Ravi Patel">
-                    </div>
-                    <div class="about-text">
-                        <h2 id="name">Chef Ravi Patel</h2>
-                        <p id="paragraph">
-                            I'm Chef Ravi Patel, hailing from the vibrant and culturally rich country of India.
-                             My culinary journey began in the bustling streets of Delhi, where the enticing aromas 
-                             of spices and simmering dishes first ignited my passion for cooking. With a deep 
-                             appreciation for diverse flavors, I am proud to bring my love for food to life 
-                             through my top recipes: buttery Butter Chicken, hearty Lasagna, and flavorful Beef Shawarma.
-                        </p>
-                        <p>
-                            Throughout my career, I've had the honor of refining my skills and showcasing the
-                             beauty of Indian cuisine fused with other culinary traditions. My Butter Chicken is 
-                             a crowd favorite, bursting with rich spices and creamy goodness, while my Lasagna adds 
-                             a twist of Indian flair with spices that dance on your palate. The Beef Shawarma, with 
-                             its succulent marinated meat and vibrant toppings, reflects my love for street food and global flavors.
-                        </p>
-                        <p style="font-weight: bold;">Along the way, I’ve been fortunate to receive several accolades, including:</p>
-                        <ul style="text-align: left;">
-                            <li>Best Innovative Dish at the Worldchefs Congress & Expo 2022</li>
-                            <li>Chef of the Year from the Gourmet Culinary Association in 2023</li>
-                        </ul>
-                        <p>
-                            When I'm not experimenting in the kitchen, I love exploring local markets, collecting exotic
-                             spices, and sharing my culinary adventures on social media. Join me in savoring the magic of
-                              food, where every dish tells a story!
-                        </p>
-                    </div>
-                </div>
-            </section>
+    <div class="header">
+        <div class="logo">
+            <img src="./Resources/final logo.png" alt="Chef Patel Logo">
         </div>
 
         
-        <section id="recipes">
-            <h2 id="favorite-recipes">My Favourite Recipes</h2>
-            <div id="recipe-images">
-                <a href="recipe1.html"><img src="./resources/butter-chicken.jpg" alt="Butter Chicken"></a>
-                <a href="recipe2.html"><img src="./resources/lasagna.jpg" alt="Lasagna"></a>
-                <a href="recipe3.html"><img src="./resources/beef-shawarma.jpg" alt="Butter Chicken"></a>
+        <nav class="nav-links">
+            <a href="./index.html" style=" color:#f04c00; 
+            background-color: #ffffff;
+            border-radius: 15px;">Home</a>
+            <a href="./about.html">About</a>
+            <a href="#recipes">Recipes</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <section id="about">
+            <h2 id="about-me">About Me</h2>
+            <div class="about-section">
+                <div class="about-image">
+                    <img src="./Resources/Chef.png" alt="Chef Ravi Patel" style="display: flex;">
+                </div>
+                <div class="about-text">
+                    <h2 id="name">Chef Ravi Patel</h2>
+                    <p id="paragraph">
+                        I'm Chef Ravi Patel, hailing from the vibrant and culturally rich country of India.
+                         My culinary journey began in the bustling streets of Delhi, where the enticing aromas 
+                         of spices and simmering dishes first ignited my passion for cooking. With a deep 
+                         appreciation for diverse flavors, I am proud to bring my love for food to life 
+                         through my top recipes: buttery Butter Chicken, hearty Lasagna, and flavorful Beef Shawarma.
+                    </p>
+                    <p>
+                        Throughout my career, I've had the honor of refining my skills and showcasing the
+                         beauty of Indian cuisine fused with other culinary traditions. My Butter Chicken is 
+                         a crowd favorite, bursting with rich spices and creamy goodness, while my Lasagna adds 
+                         a twist of Indian flair with spices that dance on your palate. The Beef Shawarma, with 
+                         its succulent marinated meat and vibrant toppings, reflects my love for street food and global flavors.
+                    </p>
+                    <p style="font-weight: bold;">Along the way, I’ve been fortunate to receive several accolades, including:</p>
+                    <ul style="text-align: left;">
+                        <li>Best Innovative Dish at the Worldchefs Congress & Expo 2022</li>
+                        <li>Chef of the Year from the Gourmet Culinary Association in 2023</li>
+                    </ul>
+                    <p>
+                        When I'm not experimenting in the kitchen, I love exploring local markets, collecting exotic
+                         spices, and sharing my culinary adventures on social media. Join me in savoring the magic of
+                          food, where every dish tells a story!
+                    </p>
+                </div>
             </div>
         </section>
     </main>
-
-    <footer>
-        <p id="copyright" class="copyright text">
-            Copyright &copy; 2025
-        </p>
-    </footer>
+    <section id="recipes">
+        <h2 id="favorite-recipes" style="position: relative;">My Favourite Recipes</h2>
+        <div id="recipe-images">
+            <a href="./recipe1.html"><img src="./resources/Butter chicken.jpg" alt="Butter Chicken" style="height: 300px; width: auto;">Butter chicken</a>
+            <a href="./recipe2.html"><img src="./resources/Lasanga.jpg" alt="Lasagna" style="height: 300px; width: auto;">Lasanga</a>
+            <a href="./recipe3.html"><img src="./resources/shawarma.jpg" alt="Butter Chicken" style="height: 300px; width: auto;">Beef shawarma</a>
+        </div>
+    </section>
+    <div class="footer">
+        <p>All rights reserved, JOHN ABBOTT COLLEGE G6, QC.CA</p>
+    </div>
 </body>
 </html>

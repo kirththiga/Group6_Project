@@ -3,43 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Butter Chicken Recipe</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>CHEF PATEL'S FOOD BLOG</title>
+    <link rel="stylesheet" href="Stylesheet/style.css">
+ 
 </head>
 <body>
-    <header>
-        <h1>Welcome to Chef Ravi Patel's Page</h1>
-        <nav>
-            <ul class="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#recipes">Recipes</a></li>
-            </ul>
-        </nav>
-    </header> 
-    
-    
-    <main>
-        <div>
-            <h2 id="recipe-header">Lasagna Recipe</h2>
-            <p id="tag-line">This classic lasagna recipe is made with an easy meat sauce as the base. Layer the sauce with noodles and cheese, then bake until bubbly! This is great for feeding a big family and freezes well, too. </p>
-            <div class="recipe-container">
-                <p>For this recipe, we are essentially making a thick, meaty tomato sauce and layering that with noodles and cheese into a casserole. Here's the run-down:</p>
-                <img src="./resources/butter-chicken.jpg" alt="Butter Chicken Image" id="recipe-image">
-            </div>
-            <ol>
-                <li>Start by making the sauce with ground beef, bell peppers, onions, and a combo of tomato sauce, tomato paste, and crushed tomatoes. The three kinds of tomatoes gives the sauce great depth of flavor.</li>
-                <li>Let this simmer while you boil the noodles and get the cheeses ready. We're using ricotta, shredded mozzarella, and parmesan—like the mix of tomatoes, this 3-cheese blend gives the lasagna great flavor!</li>
-                <li>From there, it's just an assembly job. A cup of meat sauce, a layer of noodles, more sauce, followed by a layer of cheese. Repeat until you have three layers and have used up all the ingredients.</li>
-                <li>Bake until bubbly and its ready to eat.</li>                    
-            </ol>
+    <div class="header">
+        <div class="logo">
+            <img src="./Resources/final logo.png" alt="Chef Patel Logo">
         </div>
+
+        
+        <nav class="nav-links">
+            <a href="./index.html">Home</a>
+            <a href="./about.html" >About</a>
+            <a href="#recipes" style=" color: #000000; 
+            background-color: #ffffff;
+            border-radius: 15px;">Recipes</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <section id="home">
+            <h2></h2>
+
+        </section>
+        <section id="about";>
+            <h2 style="color: #000000;"></h2>
+            <div class="about-section">
+                <div class="about-image">
+                    <img src="./Resources/Lasanga.jpg" alt="Lasanga" style="width: 600px;height: auto;">
+                </div>
+                <div class="about-text">
+                    <h1>Classic Lasagna Recipe</h1>
+                    
+                    <p>This classic lasagna recipe is made with an easy meat sauce as the base. Layer the sauce with noodles and cheese, then bake until bubbly! This is great for feeding a big family and freezes well, too.</p>
+                
+                    <h2>Ingredients</h2>
+                    <ul>
+                        <li>Ground beef</li>
+                        <li>Bell peppers</li>
+                        <li>Onions</li>
+                        <li>Tomato sauce</li>
+                        <li>Tomato paste</li>
+                        <li>Crushed tomatoes</li>
+                        <li>Ricotta cheese</li>
+                        <li>Shredded mozzarella cheese</li>
+                        <li>Parmesan cheese</li>
+                        <li>Lasagna noodles</li>
+                    </ul>
+                    
+                    <h2>Instructions</h2>
+                    <ol>
+                        <li>Start by making the sauce with ground beef, bell peppers, onions, and a combo of tomato sauce, tomato paste, and crushed tomatoes. The three kinds of tomatoes give the sauce great depth of flavor.</li>
+                        <li>Let this simmer while you boil the noodles and get the cheeses ready. Use ricotta, shredded mozzarella, and parmesan for great flavor.</li>
+                        <li>Assemble the lasagna: Add a cup of meat sauce, a layer of noodles, more sauce, followed by a layer of cheese. Repeat until you have three layers and have used up all the ingredients.</li>
+                        <li>Bake until bubbly, and it's ready to eat!</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p id="copyright" class="copyright text">
-            Copyright &copy; 2025
-        </p>
-    </footer>
+    <main>
+        <section id="home">
+            <h2></h2>
+
+        </section>
+        <section id="recipes">
+            <h2 id="favorite-recipes" style="position: relative;">My Favourite Recipes</h2>
+            <div id="recipe-images">
+                <a href="./recipe1.html"><img src="./resources/Butter chicken.jpg" alt="Butter Chicken" style="height: 300px; width: auto;">Butter chicken</a>
+            <a href="./recipe2.html"><img src="./resources/Lasanga.jpg" alt="Lasagna" style="height: 300px; width: auto;">Lasanga</a>
+            <a href="./recipe3.html"><img src="./resources/shawarma.jpg" alt="Butter Chicken" style="height: 300px; width: auto;">Beef shawarma</a>
+            </div>
+        </section>
+    </main>
+
+    <div class="footer">
+        <p>All rights reserved, JOHN ABBOTT COLLEGE G6, QC.CA</p>
+    </div>
 </body>
 </html>
